@@ -47,3 +47,12 @@ A summary of how the run_analysis.R script is below. For more information, pleas
 5) The script uses the aggregate() function in R to compute the mean for the filtered data set by activity type and subject number. The output of this step is the desired tidy data set.
 
 6) The script outputs the final tidy data set as tidyData.txt and clears memory.
+
+## Tidy Data Justification
+
+This data is tidy because it conforms to the key tidy data principles:
+	1. There is only one variable per column.
+	2. Each different observation of that variable is in a different row.
+	3. There is only one table for each kind of variable.
+	4. There is a row at the top with the variable names and each variable name is human readable.
+	5. The data is ready for further analysis.
